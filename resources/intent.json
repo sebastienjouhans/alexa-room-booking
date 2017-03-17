@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "WantRoomIntent"
+    },
+    {
+      "intent": "HowManyPeopleIntent",
+      "slots": [
+        {
+          "name": "numberOfPeople",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "BookRoomIntent",
+      "slots": [
+        {
+          "name": "roomColour",
+          "type": "LIST_OF_ROOM_COLOUR"
+        }
+      ]
+    },
+    {
+      "intent": "WantCateringIntent",
+      "slots": [
+        {
+          "name": "food",
+          "type": "LIST_OF_FOOD"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

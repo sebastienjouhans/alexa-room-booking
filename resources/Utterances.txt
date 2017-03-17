@@ -1,0 +1,20 @@
+WantRoomIntent I would like to book a room
+WantRoomIntent I need a room
+WantRoomIntent need a room
+WantRoomIntent any rooms free
+WantRoomIntent any rooms available
+HowManyPeopleIntent {numberOfPeople}
+HowManyPeopleIntent for {numberOfPeople}
+HowManyPeopleIntent {numberOfPeople} person
+HowManyPeopleIntent for {numberOfPeople} person
+HowManyPeopleIntent for {numberOfPeople} people
+BookRoomIntent book {roomColour}
+BookRoomIntent book {roomColour} room
+BookRoomIntent {roomColour} room
+BookRoomIntent {roomColour}
+WantCateringIntent {food}
+WantCateringIntent I want some {food}
+WantCateringIntent I want {food}
+WantCateringIntent I would like some {food}
+WantCateringIntent I would like {food}
+WantCateringIntent order some {food}
